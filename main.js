@@ -14,13 +14,15 @@ window.addEventListener("scroll", function () {
     header.classList.add(
       "bg-opacity-75",
       "backdrop-filter",
-      "backdrop-blur-lg"
+      "backdrop-blur-lg",
+      "shadow-lg"
     );
   } else {
     header.classList.remove(
       "bg-opacity-75",
       "backdrop-filter",
-      "backdrop-blur-lg"
+      "backdrop-blur-lg",
+      "shadow-lg"
     );
   }
 });
