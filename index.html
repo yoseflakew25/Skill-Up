@@ -23,7 +23,7 @@
 
 <body class="antialiased">
     <!-- navbar -->
- <header class="bg-cream">
+ <header class="bg-cream sticky top-0 z-50 " id="header">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-28 items-center justify-between">
       <div class="flex-1 md:flex md:items-center md:gap-12">
@@ -48,7 +48,7 @@
           <ul class="flex items-center gap-8 text-md">
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 About
@@ -57,7 +57,7 @@
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 Careers
@@ -66,7 +66,7 @@
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 History
@@ -75,7 +75,7 @@
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 Services
@@ -84,7 +84,7 @@
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 Projects
@@ -93,7 +93,7 @@
 
             <li>
               <a
-                class="text-gray-500 transition hover:text-gray-500/75"
+                class="text-gray-600 transition hover:text-gray-500/75"
                 href="/"
               >
                 Blog
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-40 relative">
+        <div class="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-20 relative">
             <svg class="xl:h-40 xl:w-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 				<path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" fill="currentColor"></path>
 			</svg>
@@ -285,7 +285,7 @@
     <div class="sm:flex items-center sm:space-x-8 mt-36" id="pitch">
     <div data-aos="fade-right" class="sm:w-1/2 relative">
         <div class="bg-yellow-500 rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
-        <h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-teal-600">you can do with Skilline</span></h1>
+        <h1 class="font-semibold text-2xl relative z-40 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-teal-600">you can do with Skilline</span></h1>
         <p class="py-5 lg:pr-32">Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
         <a href="" class="underline">Learn More</a>
     </div>
@@ -303,7 +303,7 @@
             <div data-aos="fade-down" class="md:w-7/12 relative">
                 <div style="background: #33EFA0" class="w-32 h-32 rounded-full absolute z-0 left-4 -top-12 animate-pulse"></div>
                 <div style="background: #33D9EF;" class="w-5 h-5 rounded-full absolute z-0 left-36 -top-12 animate-ping"></div>
-                <img class="relative z-50 floating" src="img/vcall.png" alt="">
+                <img class="relative z-40 floating" src="img/vcall.png" alt="">
                 <div style="background: #5B61EB;" class="w-36 h-36 rounded-full absolute z-0 right-16 -bottom-1 animate-pulse"></div>
                 <div style="background: #F56666;" class="w-5 h-5 rounded-full absolute z-0 right-52 bottom-1 animate-ping"></div>
             </div>
@@ -709,6 +709,7 @@
   </div>
 </footer>
 
+<script src="./main.js"></script>
     <!-- AOS init -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

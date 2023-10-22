@@ -68,3 +68,13 @@ body {
 .button-dark {
     color: #011502;
 }
+
+
+/* Add these styles to your existing CSS */
+.bg-opacity-75 {
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+.backdrop-filter {
+  backdrop-filter: blur(20px);
+}
