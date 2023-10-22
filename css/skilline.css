@@ -30,6 +30,30 @@ body {
     animation-timing-function: ease-in-out;
 }
 
+/* Styling the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Styling the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  border-radius: 8px;
+  /* Color of the thumb */
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+}
+
+
+/* Styling the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
 @keyframes floating {
     0% {
         transform: translate(0, 0px);
